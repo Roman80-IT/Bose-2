@@ -1,0 +1,47 @@
+/* #region page */
+body {
+  margin: 0;
+}
+
+/* #endregion */
+
+/* #region header */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+
+  background-image: url(/images/header-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* #region menu */
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  padding: 64px 120px;
+  background: #e8eff9;
+}
+
+.menu__top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 64px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
